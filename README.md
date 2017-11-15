@@ -1,4 +1,4 @@
-# What I've Learned from Interviewing over 0x100 Developers
+# Know Your Tools! Making the Most of Working with .NET Core
 
 Presentation Slides for talk initially given at [Denver Dev Day](https://denverdevday.github.io/nov-2017/) - Nov 17, 2017
 
