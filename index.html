@@ -1,78 +1,99 @@
-<!doctype html>
+!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Know Your Tools! Making the Most of Working with .NET Core</title>
+        <title>Know Your Tools! Making the Most of Working with .NET Core</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
 
-		<div class="reveal">
-			<div class="slides">
-				<section data-markdown>
-					<textarea data-template>
-						### Know Your Tools!
-						#### Making the Most of Working with .NET Core
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown>
+                    <textarea data-template>
+                        ### Know Your Tools!
+                        #### Making the Most of Working with .NET Core
 
-						Dave Rael
+                        Dave Rael
 
-						[http://developeronfire.com](http://developeronfire.com)
+                        [http://developeronfire.com](http://developeronfire.com)
 
-						![Where Image?](images/developeronfire.png)
+                        ![Where Image?](images/developeronfire.png)
 
-						dave@raelyard.com
-						https://github.com/raelyard/KnowYourToolsNetCore
-						https://remoteconference.developeronfire.com/
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template>
-						#### .NET Core
+                        dave@raelyard.com
+                        https://github.com/raelyard/KnowYourToolsNetCore
+                        https://remoteconference.developeronfire.com/
+                    </textarea>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        #### .NET Core
 
-						![Where Image?](images/daddy.jpg)
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template>
-						#### .NET Core
+                        ![Where Image?](images/daddy.jpg)
+                    </textarea>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        #### .NET Core
 
-						![Where Image?](images/dotnetnew.jpg)
-					</textarea>
-				</section>
-			</div>
-		</div>
+                        ![Where Image?](images/dotnetnew.png)
+                    </textarea>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        #### Tools Acquisition
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+                        
+                    </textarea>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        #### Get Your Tools
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+                        ```
+                        choco install -y git
+                        choco install -y poshgit
+                        choco install -y visualstudiocode
+                        choco install -y winmerge
+                        choco install -y docker
+                        choco install -y dotnetcore-sdk
+                        ```
+                    </textarea>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
 </html>
