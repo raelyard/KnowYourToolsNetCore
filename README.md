@@ -5,7 +5,7 @@ Presentation Slides for talk initially given at [Denver Dev Day](https://denverd
 Resources:
 - [The Presentation Slides](https://raelyard.github.io/KnowYourToolsNetCore/index.html)
 - [Developer On Fire](http://developeronfire.com/)
-- [Developer On Fire Remote Conference](https://remoteconference.developeronfire.com/)
+- [Developer On Fire Membership](https://members.developeronfire.com/)
 - [Dave's Blog post - The 5 Pillars of Developer Optimization](http://developeronfire.com/blog/the-5-pillars-of-developer-optimization)
 - [Dave's Blog post - Know How To Use Your Tools](http://developeronfire.com/blog/know-how-to-use-your-tools)
 - [Dave's Blog post - I Hate Keyboard Shortcuts](http://developeronfire.com/blog/i-hate-keyboard-shortcuts)
